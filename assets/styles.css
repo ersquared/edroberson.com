@@ -110,3 +110,9 @@ h3 { font-size: 1.35rem; }
   .cards, .stats-grid { grid-template-columns: 1fr; }
   .footer-wrap { flex-direction: column; }
 }
+.hero-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
